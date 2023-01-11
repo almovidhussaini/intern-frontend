@@ -1,0 +1,32 @@
+.editbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem;
+    background-color:  #1b230f;
+    height: 90vh;
+
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+.edit>span{
+    color: white;
+}
+.titleform{
+    height:3rem;
+    width: 10rem;
+    color: #3f3535;
+    background-color: rgb(237, 230, 230);
+}
+.discriptionform{
+    height:4rem;
+    width: 24rem;
+    overflow: hidden;
+    color: #3f3535;
+    background-color: rgb(237, 230, 230);
+}

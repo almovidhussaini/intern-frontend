@@ -1,0 +1,60 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 237, 237);
+    max-width : 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.registerbody{
+    background-color:white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    border: 1px solid black;
+    padding: 3rem;
+    overflow-x: hidden, no-scroll;
+}
+.registerbody>h1{
+    padding-top: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+.registerform{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
+}
+.emailform{
+    width: 18rem;
+    height: 1.4rem;
+    padding-left: 0.4rem;
+}
+.passwordform{
+    width: 18rem;
+    height: 1.4rem;
+    padding-left: 0.4rem;
+}
+
+.registerbtn{
+    margin-top: 2rem;
+    padding: 0.3rem 0.5rem;
+}
+.registerfooter{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.registerfooter>button{
+    padding:2px;
+}
+.errorlabel{
+    color: red;
+    font-size: smaller;
+
+}
+
+

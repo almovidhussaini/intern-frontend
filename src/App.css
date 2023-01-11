@@ -1,0 +1,29 @@
+*{
+  /* margin: 0%; */
+  padding: 0%;
+}
+
+.login{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.inputform{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.inputform>input{
+  width:14rem;
+  height:1.2rem;
+
+}
+.loginbtn{
+  padding:9px;
+  
+}
